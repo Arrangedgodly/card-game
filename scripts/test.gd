@@ -1,6 +1,7 @@
 extends Node2D
 
 var cards = []
+const CARD = preload("res://scenes/card.tscn")
 
 func _ready():
 	load_card_scenes()
@@ -22,5 +23,7 @@ func load_card_scenes():
 	
 func instantiate_cards():
 	for card in cards:
-		card.instantiate()
-		add_child(card)
+		var card_instance = CARD.instantiate()
+		var card_face = card.instantiate()
+		card_instance.add_child(card_face)
+		add_child(card_instance)

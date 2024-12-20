@@ -14,3 +14,14 @@ config/name="card-game"
 run/main_scene="res://scenes/test.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1200
+window/size/viewport_height=800
+window/size/mode=2
+window/stretch/mode="viewport"
+
+[physics]
+
+2d/default_gravity=0.0
