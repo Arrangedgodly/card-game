@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://81oun7p56bdy"]
+
+[ext_resource type="Texture2D" uid="uid://4haem4jgsqsu" path="res://assets/PixelPlebes_Complete/PixelPlebes_Complete/Plebes_Update002-ANIMS/V1/4X/PixelPlebes_V1_4x_Update002__Update001_37.png" id="1_p0wl6"]
+
+[node name="SevenOfSpades" type="Sprite2D"]
+texture = ExtResource("1_p0wl6")

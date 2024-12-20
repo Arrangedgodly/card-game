@@ -1,0 +1,72 @@
+[gd_scene load_steps=11 format=3 uid="uid://dfw3k0j6eopx6"]
+
+[ext_resource type="Texture2D" uid="uid://cdf2gje2xkuci" path="res://assets/PixelPlebes_Complete/PixelPlebes_Complete/Plebes_Update002-ANIMS/V1/Animations/Jack/Heart/Plebes_Anim_Jack_Heart_4x.png" id="1_begy3"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hsopf"]
+atlas = ExtResource("1_begy3")
+region = Rect2(0, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s8hx0"]
+atlas = ExtResource("1_begy3")
+region = Rect2(360, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lywb4"]
+atlas = ExtResource("1_begy3")
+region = Rect2(720, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_exf4t"]
+atlas = ExtResource("1_begy3")
+region = Rect2(1080, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3matx"]
+atlas = ExtResource("1_begy3")
+region = Rect2(1440, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bypij"]
+atlas = ExtResource("1_begy3")
+region = Rect2(1800, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5g823"]
+atlas = ExtResource("1_begy3")
+region = Rect2(2160, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rn4k6"]
+atlas = ExtResource("1_begy3")
+region = Rect2(2520, 0, 360, 504)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vfo2w"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hsopf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s8hx0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lywb4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_exf4t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3matx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bypij")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5g823")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rn4k6")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[node name="JackOfHearts" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_vfo2w")
+autoplay = "default"
+frame_progress = 0.281028

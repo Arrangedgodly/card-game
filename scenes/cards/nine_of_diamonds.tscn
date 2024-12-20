@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://68g7k7e8u4bi"]
+
+[ext_resource type="Texture2D" uid="uid://b473mtpyrn86n" path="res://assets/PixelPlebes_Complete/PixelPlebes_Complete/Plebes_Update002-ANIMS/V1/4X/PixelPlebes_V1_4x_Update002__Update001_25.png" id="1_xg52v"]
+
+[node name="NineOfDiamonds" type="Sprite2D"]
+texture = ExtResource("1_xg52v")

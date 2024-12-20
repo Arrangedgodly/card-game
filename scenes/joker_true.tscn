@@ -1,0 +1,72 @@
+[gd_scene load_steps=11 format=3 uid="uid://rsbtpoh4tsqy"]
+
+[ext_resource type="Texture2D" uid="uid://tvr6e2pingr7" path="res://assets/PixelPlebes_Complete/PixelPlebes_Complete/Plebes_Update002-ANIMS/V1/Animations/Jokers/Truth/Plebes_Anim_JokerTrue_4x.png" id="1_d4mog"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jxxxa"]
+atlas = ExtResource("1_d4mog")
+region = Rect2(0, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b212r"]
+atlas = ExtResource("1_d4mog")
+region = Rect2(360, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k1s3c"]
+atlas = ExtResource("1_d4mog")
+region = Rect2(720, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dp3pw"]
+atlas = ExtResource("1_d4mog")
+region = Rect2(1080, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4r0vc"]
+atlas = ExtResource("1_d4mog")
+region = Rect2(1440, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f7ktv"]
+atlas = ExtResource("1_d4mog")
+region = Rect2(1800, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r6q4y"]
+atlas = ExtResource("1_d4mog")
+region = Rect2(2160, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7278q"]
+atlas = ExtResource("1_d4mog")
+region = Rect2(2520, 0, 360, 504)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jfjeo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jxxxa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b212r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k1s3c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dp3pw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4r0vc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f7ktv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r6q4y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7278q")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[node name="JokerTrue" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_jfjeo")
+autoplay = "default"
+frame_progress = 0.118379

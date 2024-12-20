@@ -1,0 +1,72 @@
+[gd_scene load_steps=11 format=3 uid="uid://mtr3rqyflhjj"]
+
+[ext_resource type="Texture2D" uid="uid://eufnt8pujpwv" path="res://assets/PixelPlebes_Complete/PixelPlebes_Complete/Plebes_Update002-ANIMS/V1/Animations/Queen/Spade/Plebes_Anim_Queen_Spade_4x.png" id="1_2i2ah"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_07q7u"]
+atlas = ExtResource("1_2i2ah")
+region = Rect2(0, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_larv8"]
+atlas = ExtResource("1_2i2ah")
+region = Rect2(360, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gu38l"]
+atlas = ExtResource("1_2i2ah")
+region = Rect2(720, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mvduc"]
+atlas = ExtResource("1_2i2ah")
+region = Rect2(1080, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_75ma7"]
+atlas = ExtResource("1_2i2ah")
+region = Rect2(1440, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hjvgk"]
+atlas = ExtResource("1_2i2ah")
+region = Rect2(1800, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xy7gm"]
+atlas = ExtResource("1_2i2ah")
+region = Rect2(2160, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ia2w0"]
+atlas = ExtResource("1_2i2ah")
+region = Rect2(2520, 0, 360, 504)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tbx45"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_07q7u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_larv8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gu38l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mvduc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_75ma7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hjvgk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xy7gm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ia2w0")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[node name="QueenOfSpades" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_tbx45")
+autoplay = "default"
+frame_progress = 0.872688

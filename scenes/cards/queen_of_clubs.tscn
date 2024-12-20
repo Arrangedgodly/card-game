@@ -1,0 +1,72 @@
+[gd_scene load_steps=11 format=3 uid="uid://crnex1ojupmo6"]
+
+[ext_resource type="Texture2D" uid="uid://d3ih5btc8mdtx" path="res://assets/PixelPlebes_Complete/PixelPlebes_Complete/Plebes_Update002-ANIMS/V1/Animations/Queen/Club/Plebes_Anim_Queen_Club_4x.png" id="1_gwg88"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ijxp"]
+atlas = ExtResource("1_gwg88")
+region = Rect2(0, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ogu2k"]
+atlas = ExtResource("1_gwg88")
+region = Rect2(360, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cxymv"]
+atlas = ExtResource("1_gwg88")
+region = Rect2(720, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fk3w3"]
+atlas = ExtResource("1_gwg88")
+region = Rect2(1080, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e2hfh"]
+atlas = ExtResource("1_gwg88")
+region = Rect2(1440, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aqh7t"]
+atlas = ExtResource("1_gwg88")
+region = Rect2(1800, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0d87u"]
+atlas = ExtResource("1_gwg88")
+region = Rect2(2160, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w2ot2"]
+atlas = ExtResource("1_gwg88")
+region = Rect2(2520, 0, 360, 504)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_y3wc3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ijxp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ogu2k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cxymv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fk3w3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e2hfh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aqh7t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0d87u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w2ot2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[node name="QueenOfClubs" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_y3wc3")
+autoplay = "default"
+frame_progress = 0.0313838

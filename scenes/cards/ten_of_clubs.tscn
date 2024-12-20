@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c7lee1c6whj2e"]
+
+[ext_resource type="Texture2D" uid="uid://c572yl1nhljbq" path="res://assets/PixelPlebes_Complete/PixelPlebes_Complete/Plebes_Update002-ANIMS/V1/4X/PixelPlebes_V1_4x_Update002__Update001_54.png" id="1_70lw0"]
+
+[node name="TenOfClubs" type="Sprite2D"]
+texture = ExtResource("1_70lw0")

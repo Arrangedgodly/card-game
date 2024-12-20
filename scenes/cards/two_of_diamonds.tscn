@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmlaglp0tkgyc"]
+
+[ext_resource type="Texture2D" uid="uid://bmj1ytlciwekv" path="res://assets/PixelPlebes_Complete/PixelPlebes_Complete/Plebes_Update002-ANIMS/V1/4X/PixelPlebes_V1_4x_Update002__Update001_18.png" id="1_0sp5c"]
+
+[node name="TwoOfDiamonds" type="Sprite2D"]
+texture = ExtResource("1_0sp5c")

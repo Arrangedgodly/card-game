@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://bu3k2ahgef1v2"]
+
+[ext_resource type="Texture2D" uid="uid://bf3hsrra60hxp" path="res://assets/PixelPlebes_Complete/Plebes_SuperSECRET_FIX/7_of_DIAMONDS/Plebes_SEVEN_FIX_4x.png" id="1_n6k5u"]
+[ext_resource type="PackedScene" uid="uid://bu3k2ahgef1v2" path="res://scenes/cards/seven_of_diamonds.tscn" id="2_b2lvo"]
+
+[node name="SevenOfDiamonds" instance=ExtResource("2_b2lvo")]
+texture = ExtResource("1_n6k5u")

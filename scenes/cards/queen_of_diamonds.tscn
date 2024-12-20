@@ -1,0 +1,72 @@
+[gd_scene load_steps=11 format=3 uid="uid://bixhxxjrbgb7i"]
+
+[ext_resource type="Texture2D" uid="uid://c6muppp6bxdwl" path="res://assets/PixelPlebes_Complete/PixelPlebes_Complete/Plebes_Update002-ANIMS/V1/Animations/Queen/Diamond/Plebes_Anim_Queen_Diamond_4x.png" id="1_jwbdr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xuh7h"]
+atlas = ExtResource("1_jwbdr")
+region = Rect2(0, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v3pl7"]
+atlas = ExtResource("1_jwbdr")
+region = Rect2(360, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_16y27"]
+atlas = ExtResource("1_jwbdr")
+region = Rect2(720, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0tmme"]
+atlas = ExtResource("1_jwbdr")
+region = Rect2(1080, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fhnf5"]
+atlas = ExtResource("1_jwbdr")
+region = Rect2(1440, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3fv6u"]
+atlas = ExtResource("1_jwbdr")
+region = Rect2(1800, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mpnh7"]
+atlas = ExtResource("1_jwbdr")
+region = Rect2(2160, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l2lkc"]
+atlas = ExtResource("1_jwbdr")
+region = Rect2(2520, 0, 360, 504)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_e0hhk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xuh7h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v3pl7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_16y27")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0tmme")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fhnf5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3fv6u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mpnh7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l2lkc")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[node name="QueenOfDiamonds" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_e0hhk")
+autoplay = "default"
+frame_progress = 0.756182

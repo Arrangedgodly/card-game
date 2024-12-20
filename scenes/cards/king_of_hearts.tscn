@@ -1,0 +1,72 @@
+[gd_scene load_steps=11 format=3 uid="uid://k4dfy6ldd6ij"]
+
+[ext_resource type="Texture2D" uid="uid://c1ssdp0tl5krm" path="res://assets/PixelPlebes_Complete/PixelPlebes_Complete/Plebes_Update002-ANIMS/V1/Animations/King/Plebes_Anim_King_Heart_4x.png" id="1_p436c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gyrrm"]
+atlas = ExtResource("1_p436c")
+region = Rect2(0, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hi4k6"]
+atlas = ExtResource("1_p436c")
+region = Rect2(360, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_drel0"]
+atlas = ExtResource("1_p436c")
+region = Rect2(720, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d8w17"]
+atlas = ExtResource("1_p436c")
+region = Rect2(1080, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nl50a"]
+atlas = ExtResource("1_p436c")
+region = Rect2(1440, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g2yfh"]
+atlas = ExtResource("1_p436c")
+region = Rect2(1800, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ukieu"]
+atlas = ExtResource("1_p436c")
+region = Rect2(2160, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wlygh"]
+atlas = ExtResource("1_p436c")
+region = Rect2(2520, 0, 360, 504)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pwh7v"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gyrrm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hi4k6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_drel0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d8w17")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nl50a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g2yfh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ukieu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wlygh")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[node name="KingOfHearts" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_pwh7v")
+autoplay = "default"
+frame_progress = 0.89429

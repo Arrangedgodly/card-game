@@ -1,0 +1,72 @@
+[gd_scene load_steps=11 format=3 uid="uid://2uqfvuqosowo"]
+
+[ext_resource type="Texture2D" uid="uid://bihswijawceec" path="res://assets/PixelPlebes_Complete/PixelPlebes_Complete/Plebes_Update002-ANIMS/V1/Animations/Jack/Club/Plebes_Anim_Jack_Club_4x.png" id="1_ygd5r"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v1jp2"]
+atlas = ExtResource("1_ygd5r")
+region = Rect2(0, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hu2t6"]
+atlas = ExtResource("1_ygd5r")
+region = Rect2(360, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r7bu2"]
+atlas = ExtResource("1_ygd5r")
+region = Rect2(720, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_niee2"]
+atlas = ExtResource("1_ygd5r")
+region = Rect2(1080, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2cfgi"]
+atlas = ExtResource("1_ygd5r")
+region = Rect2(1440, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x1qrf"]
+atlas = ExtResource("1_ygd5r")
+region = Rect2(1800, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1dciw"]
+atlas = ExtResource("1_ygd5r")
+region = Rect2(2160, 0, 360, 504)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tyn4w"]
+atlas = ExtResource("1_ygd5r")
+region = Rect2(2520, 0, 360, 504)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jq7xb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v1jp2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hu2t6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r7bu2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_niee2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2cfgi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x1qrf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1dciw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tyn4w")
+}],
+"loop": true,
+"name": &"default",
+"speed": 15.0
+}]
+
+[node name="JackOfClubs" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_jq7xb")
+autoplay = "default"
+frame_progress = 0.452155
